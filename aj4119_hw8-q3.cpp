@@ -69,9 +69,9 @@ int minInArray2(int arr[],int low, int high)
     }
     else
     {
-        if(minimum > arr[high-1])
+        if(minimum > arr[high])
         { 
-            minimum=arr[high-1];
+            minimum=arr[high];
             return (minInArray2(arr,low,high-1));
         }
         else
