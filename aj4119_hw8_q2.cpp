@@ -18,8 +18,8 @@ int sumOfSquares(int arr[],int arrSize)
     }
 }
 
-int isSorted(int arr[],int arrSize);
-int isSorted(int arr[],int arrSize)
+bool isSorted(int arr[],int arrSize);
+bool isSorted(int arr[],int arrSize)
 {  
    
     if(arrSize==2)
