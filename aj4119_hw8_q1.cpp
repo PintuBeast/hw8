@@ -6,13 +6,13 @@ void printOppositeTriangles(int n);
 
 void printTriangle(int n)
 {
-    if(n<1)
+    if(n < 1)
     {
         return;
     }
     else{
-        printTriangle(n-1);
-        for(int i=1;i<=n;i++)
+        printTriangle(n - 1);
+        for(int i = 1 ; i <= n; i++)
         {
             cout<<"*";
         }
@@ -23,20 +23,20 @@ void printTriangle(int n)
 
 void printOppositeTriangles(int n)
 {
-    if(n<1)
+    if(n < 1)
     {
         return;
     }
     else{
         
-        for(int i=1;i<=n;i++)
+        for(int i = 1 ; i <= n ; i++)
         {
             cout<<"*";
         }
         cout<<"\n";
-        printOppositeTriangles(n-1);
+        printOppositeTriangles(n - 1);
 
-        for(int i=1;i<=n;i++)
+        for(int i = 1 ; i <= n ; i++)
         {
             cout<<"*";
         }
@@ -53,7 +53,7 @@ void printRuler(int n);
 
 void printRuler(int n)
 {
-   if(n==1)
+   if(n == 1)
    {
     cout<<"-";
     cout<<"\n";
@@ -61,13 +61,13 @@ void printRuler(int n)
    }
    else
    {
-    printRuler(n-1);
-    for(int i=1;i<=n;i++)
+    printRuler(n - 1);
+    for(int i = 1 ; i <= n ; i++)
     {
         cout<<"- ";
     }
     cout<<"\n";
-    printRuler(n-1);
+    printRuler(n - 1);
     
    }
    
